@@ -30,5 +30,14 @@
     -webkit-transform: rotate(360deg);
     /* For Mozilla Firefox */
     -moz-transform: rotate(360deg); } }
+.main {
+  display: flex;
+  width: 100%; }
+  .main .blockChain {
+    justify-content: space-between;
+    border: #9e9595 0.2px solid;
+    margin: 3px;
+    border-radius: 1rem;
+    box-shadow: 2px 4px 2px 4px rgba(203, 207, 203, 0.3); }
 
 /*# sourceMappingURL=style.css.map */
