@@ -1,0 +1,60 @@
+//Navigation Bar style
+.header-chat {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+
+    nav {
+        background-color: transparent !important;
+        .navbar-brand {
+            img {
+                animation: spin 4s infinite linear;
+            }
+        }
+    }
+
+    #navbarNav {
+
+        ul {
+            width: 70%;
+            margin: 0 auto;
+
+            li {
+                a {
+                    font-size: 22px;
+                    color: #fff;
+                    transition: all 0.2s ease-in-out;
+                    &:hover{
+                        transform: translateY(-10px);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//keyframes spinner
+@keyframes spin {
+    from {
+        /* For modern browsers */
+        transform: rotate(0deg);
+
+        /* For Safari and older versions of Chrome */
+        -webkit-transform: rotate(0deg);
+
+        /* For Mozilla Firefox */
+        -moz-transform: rotate(0deg);
+
+    }
+
+    to {
+        /* For modern browsers */
+        transform: rotate(360deg);
+
+        /* For Safari and older versions of Chrome */
+        -webkit-transform: rotate(360deg);
+
+        /* For Mozilla Firefox */
+        -moz-transform: rotate(360deg);
+    }
+}
