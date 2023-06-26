@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
 .header-chat {
   background: #eeaeca;
   background: radial-gradient(circle, #eeaeca 0%, #94bbe9 100%); }
@@ -32,12 +33,25 @@
     -moz-transform: rotate(360deg); } }
 .main {
   display: flex;
-  width: 100%; }
+  width: 100%;
+  justify-content: space-between; }
   .main .blockChain {
-    justify-content: space-between;
-    border: #9e9595 0.2px solid;
-    margin: 3px;
+    padding: 1rem !important;
+    margin-top: 15px;
     border-radius: 1rem;
     box-shadow: 2px 4px 2px 4px rgba(203, 207, 203, 0.3); }
+    .main .blockChain .title {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      font-style: normal;
+      font-size: 20px;
+      color: #cbcfcb;
+      text-shadow: -1px 5px 5px rgba(0, 0, 0, 0.51); }
+    .main .blockChain:nth-child(odd) {
+      margin-right: 30px; }
+    .main .blockChain:nth-child(even) {
+      margin-left: 30px; }
 
 /*# sourceMappingURL=style.css.map */
